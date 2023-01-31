@@ -27,4 +27,10 @@
   "@ventas/controllers":[
     "./src/modules/ventas/controllers"
   ],
+  "@ventas/dto":[
+    "./src/modules/ventas/dto"
+  ],
+  "@ventas/service":[
+    "./src/modules/ventas/service"
+  ],
 }
