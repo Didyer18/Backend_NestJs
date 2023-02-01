@@ -34,8 +34,8 @@ export class ProductEntity {
     nullable: true,
   })
   deletedAt: Date;
-  //Realationship
 
+  //Realationship
   @ManyToMany(() => CategoryEntity, (category) => category.products)
   category: CategoryEntity;
 

@@ -10,5 +10,11 @@ export class ReadProductDto extends BaseProductDto {
   readonly price: number;
 
   @Expose()
+  readonly descripcion: string;
+
+  @Expose()
+  readonly images: string[];
+
+  @Expose()
   readonly category: CategoryEntity;
 }

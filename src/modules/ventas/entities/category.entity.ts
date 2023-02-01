@@ -34,8 +34,8 @@ export class CategoryEntity {
     nullable: true,
   })
   deletedAt: Date;
-  //Realationship
 
+  //Realationship
   @OneToMany(() => ProductEntity, (product) => product.category)
   products: ProductEntity[];
 
